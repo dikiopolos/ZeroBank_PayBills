@@ -25,7 +25,7 @@ public class ZeroBank_PayBills {
 	String pcAmt = "1000";
 	
 	@Test
-	public void ZeroBank_PayBills() {
+	public void zeroBank_PayBills() {
 		
 		// SIGN-IN 
 		driver.findElement(By.xpath("(//div[contains(.,'Online Banking')])[7]")).click();
